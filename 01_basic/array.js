@@ -25,3 +25,10 @@ const dcHeroes = ["Super man", "Bat man","Flas"]
 const allHeroes = [...dcHeroes, ...marvelHeroes]
 console.log(allHeroes);
 
+// flat : do same work as spred operator 
+
+const arr = [1,2,3,4,[6,7,8],[0,67,44,[11,22,33]]]
+console.log(arr)
+const neArr = arr.flat(Infinity)
+console.log(neArr)
+
