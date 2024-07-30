@@ -15,5 +15,13 @@ console.table(num)
 /* console.log(splice) the splice function returns the substring with the specified range ,
  Remember that it includes the last parameter . And it changes in the original array i.e it subracts the 
  Substrings from the original string with the specified range */
-console.log("After splice ");
-console.log("original array : ", num);
+// console.log("After splice ");
+// console.log("original array : ", num);
+
+// Spred operator(...) : It breks the array into indivisual items or elements
+
+const marvelHeroes = ["Iron man", "Captain America", "Thor", "Black Panther"]
+const dcHeroes = ["Super man", "Bat man","Flas"]
+const allHeroes = [...dcHeroes, ...marvelHeroes]
+console.log(allHeroes);
+
