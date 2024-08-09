@@ -1,0 +1,44 @@
+*{
+    color: white;
+}
+
+body{
+    background-color: rgb(137, 120, 120);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.banner{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+
+#input{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgb(113, 110, 110);
+    font-size: 30px;
+}
+#submit{
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(113, 110, 110) ;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
